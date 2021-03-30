@@ -29,11 +29,11 @@ function App() {
     })
   }
 
-  //stretch: call back function to bring up month name
-  let parentCallback = ( month ) =>{
-    console.log( 'what do i got:', month );
-    setMonth(month)
-  }
+  // //stretch: call back function to bring up month name
+  // let parentCallback = ( month ) =>{
+  //   console.log( 'what do i got:', month );
+  //   setMonth(month)
+  // }
 
   return (
     <div className="App">
